@@ -1,0 +1,13 @@
+<%- contentFor('HeaderCss') %>
+  <%- include ('partials/title-meta', {"title":"Dashboards"}) %>
+  <%- contentFor('body') %>
+<%-include("partials/page-title", {"pagetitle": "Ecommerce" , "title" : "Dashboards" }) %>
+<div class="grid grid-cols-12 2xl:grid-cols-12 gap-x-5">
+ 
+</div><!--end grid-->
+    <%- contentFor('FooterJs') %>
+    <!--apexchart js-->
+    <script src="/assets/libs/apexcharts/apexcharts.min.js"></script>
+    
+    <!--dashboard ecommerce init js-->
+    <script src="/assets/js/pages/dashboards-ecommerce.init.js"></script>
